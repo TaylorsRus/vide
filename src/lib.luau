@@ -1,4 +1,4 @@
-local version = { major = 0, minor = 3, patch = 1 }
+local version = { major = 0, minor = 1, patch = 0 }
 
 local root = require "./root"
 local mount = require "./mount"

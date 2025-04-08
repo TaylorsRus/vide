@@ -3,11 +3,9 @@ assert(game, "when using vide outside of Roblox, require lib.luau instead")
 local vide = require(script.lib)
 local roblox_types = require(script.roblox_types)
 
-type VideSourceOrRegularData<T> = T | () -> ()
-
 export type Source<T> = vide.Source<T>
 export type Context<T> = vide.Context<T>
-export type CanBe<T> = VideSourceOrRegularData<T>
+export type CanBe<T> = T | () -> T
 
 export type vCanvasGroup = roblox_types.vCanvasGroup
 export type vFrame = roblox_types.vFrame

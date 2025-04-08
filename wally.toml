@@ -2,7 +2,7 @@
 name = "taylorsrus/vide"
 description = "Fork of vide, comes with Roblox Instance Types aswell as type for DataType or Source"
 license = "MIT"
-version = "0.1.0"
+version = "0.1.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 include = ["default.project.json", "LICENSE", "src"]
